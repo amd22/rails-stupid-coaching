@@ -1,0 +1,17 @@
+<h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p>
+
+<div class="mt-4">
+    <div class="question-box border-start border-5 p-3 mb-3">
+      <p class="mb-0"><%= @question %></p>
+      <p class="text-muted mb-0">-You</p>
+    </div>
+
+    <div class="answer-box border-start border-5 p-3 bg-light">
+      <p class="mb-0"><strong><%= @answer %></strong></p>
+      <p class="text-muted mb-0">-Your coach</p>
+    </div>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path, class: "btn btn-primary mt-4" %>
+</div>
